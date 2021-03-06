@@ -7,15 +7,15 @@ IMPORTANT: The codes and procedures for this study will be released with the pub
 
 # What is ATPmanager?
 
-ATPmanager is software to automatically generate and control massive simulations of electrical systems using ATP (Alternative Transient Program). 
+ATPmanager is a software to automatically generate and control massive simulations of electrical systems using ATP (Alternative Transient Program). 
 
 This software executes an automatic process in 3 steps: 
 1) creates .atp simulation files;
 2) performs simulations;
-3) convert waveforms resulting (.pl4 files) in MATLAB files (.mat);
+3) converts waveforms resulting (.pl4 files) in MATLAB files (.mat);
 
 # Why is useful?
-This software is useful for creating large-scale simulations (although it is possible to simulate only one case at a time). There is no limit on the number of successive simulations, without human intervention.
+This software is useful for large-scale simulations (although it is possible to simulate only one case at a time). There is no limit of successive simulations without human interaction.
 
 # How to use?
 
