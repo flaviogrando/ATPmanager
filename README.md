@@ -1,9 +1,11 @@
 # ATPmanager
-This code was used to generate tens of thousand simulations used in the submitted article:
+This code was used to generate tens of thousand simulations used in:
 
-GRANDO, F. L., LAZZARETTI, A. E., MORETO, M.; "The Impact of PMU Data Quality on Event Classification in Distribution Systems". Subjected to IEEE Transactions on Smart Grid in March 2021 (UNDER REVIEW).
+ GRANDO, F. L., LAZZARETTI, A. E., MORETO, M., LOPES, H. S.; "Fault Classification in Power Distribution Systems using PMU Data and Machine Learning". Presented in: 2019 20th International Conference on Intelligent System Application to Power Systems (ISAP). Available in: https://ieeexplore.ieee.org/document/9065966.
 
-IMPORTANT: The codes and procedures for this study will be released with the publication.
+ GRANDO, F. L., LAZZARETTI, A. E., MORETO, M.; "The Impact of PMU Data Quality on Event Classification in Distribution Systems". Subjected to IEEE Transactions on Smart Grid in March 2021 (UNDER REVIEW).
+
+IMPORTANT: The codes and procedures for this study will be released with the publication of this last paper.
 
 # What is ATPmanager?
 
@@ -19,24 +21,19 @@ This software is useful for large-scale simulations (although it is possible to 
 
 # How to use?
 
-The user must configure 4 basic steps:
-1) Simulation conditions (simulation step, total time, input and output file locations, etc.)
-2) Parameters of the electrical system (system frequency, data format, etc.)
-3) Input data (electrical grid data such as lines, loads, switches, etc.)
-4) System events and conditions (load switching, capacitors, faults, etc. and associated conditions such as switching time and system loading)
+The user need download and install 3 softwares:
+
+1) LabVIEW (any version, including student and trial licenses).
+2) ATP (Alternative Transient Program)
+3) Converter pl42mat.exe
+
+For more details on the use of the platform, please access: LINK!?
 
 Limitations:
+The software is prepared for circuit simulations with basic elements such as branches (RLC elements), swithces and sources. It is not prepared to include ATP's TACS and MODELS routines.
 
-The events that can be simulated are:
-1) Faults of all types (A, B, C, AB, BC, CA, ABG, BCG, CAG, ABC and ABCG) including cable breakage situations (open circuit faults) on the source side or on the load side;
-2) Lines switching;
-3) Load switching;
-4) Capacitor banks switching;
-
-The software is not prepared to include ATP's TACS and MODELS routines. It also does not include transformers to avoid numerical problems associated with ATP.
-
-
-![ATPmanager](https://user-images.githubusercontent.com/16105418/110058746-af295580-7d41-11eb-9f2e-e4aefb129b85.jpg)
+Ohter possible limitations:
+This application was developed for simulations of the  1992 IEEE test feeders available in: https://site.ieee.org/pes-testfeeders/resources/. Other test cases have not been evaluated. Additionally, we opted to replace transformers with equivalent impedances, this avoids possible numerical problems associated with ATP. This issue would go unnoticed in a large volume of simulations. For our cases, this simplification does not affect the purpose of the studies.
 
 
 
