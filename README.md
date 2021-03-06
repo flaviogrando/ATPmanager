@@ -1,3 +1,5 @@
+![ATPmanager](https://user-images.githubusercontent.com/16105418/110210945-05e27c80-7e73-11eb-9028-aea0171c8537.jpg)
+
 # ATPmanager
 This code was used to generate tens of thousand simulations used in:
 
