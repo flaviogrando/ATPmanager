@@ -1,0 +1,9 @@
+Shunt Capacitors;;;
+;;;
+Node;Ph-A;Ph-B;Ph-C
+;kVAr;kVAr;kVAr
+83;200;200;200
+88;50;;
+90;;50;
+92;;;50
+Total;250;250;250
