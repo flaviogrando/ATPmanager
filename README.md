@@ -7,7 +7,7 @@ This code was used to generate tens of thousand simulations used in:
 
  GRANDO, F. L., LAZZARETTI, A. E., MORETO, M.; "The Impact of PMU Data Quality on Event Classification in Distribution Systems". Subjected to IEEE Transactions on Smart Grid in March 2021 (UNDER REVIEW).
 
-IMPORTANT: The codes and procedures of this study will be released with the publication of this last paper.
+IMPORTANT: The codes and procedures of this study will be released with the publication of this last paper. However, the dataset used in this study is available at: https://mega.nz/folder/YY1kWJyT#IhYgmxM_ADQi4-oZt4vYHw
 
 # What is ATPmanager?
 
