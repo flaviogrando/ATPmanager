@@ -3,11 +3,11 @@
 # ATPmanager
 This code was used to generate tens of thousand simulations used in:
 
+  GRANDO, F. L., LAZZARETTI, A. E., MORETO, M.; "The Impact of PMU Data Quality on Event Classification in Distribution Systems". Subjected to IEEE Transactions on Smart Grid. Pre-print available: https://ieeexplore.ieee.org/document/9606225.
+ 
  GRANDO, F. L., LAZZARETTI, A. E., MORETO, M., LOPES, H. S.; "Fault Classification in Power Distribution Systems using PMU Data and Machine Learning". Presented in: 2019 20th International Conference on Intelligent System Application to Power Systems (ISAP). Available in: https://ieeexplore.ieee.org/document/9065966.
 
- GRANDO, F. L., LAZZARETTI, A. E., MORETO, M.; "The Impact of PMU Data Quality on Event Classification in Distribution Systems". Subjected to IEEE Transactions on Smart Grid in March 2021 (UNDER REVIEW).
-
-IMPORTANT: The codes and procedures of this study will be released with the publication of this last paper. However, the dataset used in this study is available at: https://mega.nz/folder/YY1kWJyT#IhYgmxM_ADQi4-oZt4vYHw
+Additionally, the dataset used in this study is available at: https://mega.nz/folder/YY1kWJyT#IhYgmxM_ADQi4-oZt4vYHw
 
 # What is ATPmanager?
 
